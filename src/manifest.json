@@ -1,0 +1,22 @@
+{
+   "manifest_version": 3,
+   "name": "AI翻译和搜索",
+   "short_name": "AI翻译和搜索",
+   "version": "0.0.4",
+   "description": "划词AI翻译+搜索。AI翻译按质量人气综合排序。调用：百度翻译，腾讯翻译，DeepL等9个翻译引擎。搜索包含：知乎，b站等12个网站",
+   "author": "butaixianran",
+   "icons": {
+      "128": "icon_128.png"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+  "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["share.js", "content.js"]
+   }],
+  "options_page": "option.html",
+  "permissions": [
+    "storage"
+  ]
+}
