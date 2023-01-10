@@ -119,8 +119,8 @@ var iconArray = [{
                 openInNewTab('https://fanyi.youdao.com/');
             },
             custom: function (text) {
-                let source = document.querySelector('textarea');
-                source.value = text;
+                let source = document.getElementById('js_fanyi_input');
+                source.innerText = text;
                 //triggerEvent(source, 'change');
                 triggerEvent(source, 'input');
                 triggerEvent(source, 'keyup');
