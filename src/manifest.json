@@ -2,7 +2,7 @@
    "manifest_version": 3,
    "name": "AI翻译和搜索",
    "short_name": "AI翻译和搜索",
-   "version": "0.0.5",
+   "version": "0.0.7",
    "description": "划词AI翻译+搜索。AI翻译按质量人气综合排序。调用：百度翻译，腾讯翻译，DeepL等9个翻译引擎。搜索包含：知乎，b站等12个网站",
    "author": "butaixianran",
    "icons": {
